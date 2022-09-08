@@ -1,9 +1,9 @@
 {
-  "name": "Heliactyl",
-  "version": "13.0.0",
+  "name": "Kingactyl",
+  "version": "1.0.0",
   "description": "The best Pterodactyl client area.",
   "main": "index.js",
-  "author": "SrydenCloud Limited",
+  "author": "King, Inc.",
   "dependencies": {
     "@keyv/mongo": "^1.2.1",
     "@keyv/mysql": "^1.1.5",

@@ -1,8 +1,8 @@
 {
-  "version": "v1 Canary",
+  "version": "1.0.0",
   "name": "Kingactyl",
   "icon": "https://cdn.discordapp.com/attachments/987734229469253674/1000783847643959398/Copy_of_untitled_1.png",
-  "defaulttheme": "Heliactyl",
+  "defaulttheme": "Kingactyl", 
   "pterodactyl": {
     "domain": "Pterodactyl URL",
     "key": "Pterodactyl Client/Admin API Key with all permissions"
@@ -19,13 +19,13 @@
   },
   "stripe": {
     "enabled": true,
-    "note": "The key is the stripe API key and the coins is the amount per £1. If the stripe API key is invalid and stripe purchases are enabled, Heliactyl will crash when attempting to do transactions.",
+    "note": "The key is the stripe API key and the coins is the amount per £1. If the stripe API key is invalid and stripe purchases are enabled, Kingactyl will crash when attempting to do transactions.",
     "key": "100000000000000",
     "coins": 100
   },
   "linkvertise": {
-    "userid": "10000",
-    "coins": 5
+    "userid": "493693",
+    "coins": 2.5
   },
   "database": "sqlite://database.sqlite",
   "api": {
@@ -102,13 +102,13 @@
         "/api/userinfo": 1
       },
       "antivpn": {
-        "note": "EXPERIMENTAL! This may or may not work, For antivpn to work, generate an apikey on https://proxycheck.io/. If you put no key, Heliactyl will disable antivpn.",
+        "note": "EXPERIMENTAL! This may or may not work, For antivpn to work, generate an apikey on https://proxycheck.io/. If you put no key, Kingactyl will disable antivpn.",
         "status": false,
         "APIKey": "Proxycheck APIKey",
         "whitelistedIPs": ["IP address"]
       },
       "packages": {
-        "default": "default",
+        "default": "free",
         "list": {
           "default": {
             "ram": 1024,
@@ -128,7 +128,7 @@
       "locations": {
         "1": {
           "name": "Default Location",
-          "note": "Heliactyl now uses banners instead of a dropdown, you can use canva.com to create a banner to use. We also have a list of free location banners in the Heliactyl discord.",
+          "note": "Kingactyl now uses banners instead of a dropdown, you can use canva.com to create a banner to use. We also have a list of free location banners in the Kingactyl discord.",
           "banner": "https://cdn.discordapp.com/attachments/987734229469253674/1000713851295256596/Copy_of_citric_2.png",
           "package": null
         }
@@ -232,7 +232,7 @@
             "environment": {
               "BEDROCK_VERSION": "latest",
               "LD_LIBRARY_PATH": ".",
-              "SERVERNAME": "Hival Bedrock Server",
+              "SERVERNAME": "KingTwork",
               "GAMEMODE": "survival",
               "DIFFICULTY": "easy",
               "CHEATS": "true"
@@ -297,7 +297,7 @@
     "cost": 0
   },
   "renewals": {
-    "note": "Renewals finally work in Heliactyl! Thank you for updating to v12.3.0, The cost is the amount of coins required to renew, and the delay is the amount of days before they need to renew. New servers after the 1st one will also cost the renewal amount",
+    "note": "Renewals finally work in Heliactyl Base! Thank you for updating to Heliactyl Base v12.3.0, The cost is the amount of coins required to renew, and the delay is the amount of days before they need to renew. New servers after the 1st one will also cost the renewal amount",
     "status": false,
     "cost": 0,
     "delay": 14

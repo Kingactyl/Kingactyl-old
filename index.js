@@ -1,7 +1,7 @@
 //
-// Heliactyl 13, Codename Element
+// Heliactyl 13.1, Codename Srydenless
 // 
-//  * Copyright SrydenCloud Limited
+//  * Copyright Ionic Group
 //  * Please read the "License" file
 //
 
@@ -163,10 +163,10 @@ const listener = app.listen(settings.website.port, function() {
   console.log(chalk.white("                                                                   "));
   console.log(chalk.white("▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉"));
   console.log(chalk.white("                                                                   "));
-  console.log(chalk.green("        Well done! Your Heliactyl instance is now online           "));
+  console.log(chalk.green("        Well done! Your Kingactyl instance is now online           "));
   console.log(chalk.white("                                                                   "));
   console.log(chalk.white("   If you experience a 502 Bad Gateway error, please note that     "));
-  console.log(chalk.white("        this is a proxy issue, not an issue with Heliactyl         "));
+  console.log(chalk.white("        this is a proxy issue, not an issue with Kingactyl         "));
   console.log(chalk.white("                                                                   "));
   console.log(chalk.white("▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉"));
 });
