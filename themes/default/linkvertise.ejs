@@ -109,7 +109,7 @@
 											<% } %>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="/settings">Settings</a>
-								<a class="dropdown-item" href="/logout">Logout</a>
+								<a class="dropdown-item" href="/logout">Logout</a>	
 							</div>
 						</div>
 					</li>
@@ -165,6 +165,8 @@
                <div class="form-group">
                  <p>Every time you complete a linkvertise link, you will earn <%= settings.linkvertise.coins %> coins!<br>Generate a link below:<br><br>
                  <a role="button" class="btn btn-primary btn-lg" style="padding: 12px 30px; font-size: 15px;" href="javascript: generate()">Generate Link</a>
+    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+      <span class="text-muted d-block text-center text-sm-left d-sm-inline-block"><a style="color: rgb(176, 172, 172)">Powered by Faliactyl & Kingactyl</a></span>
                </div>
                  <script type="text/javascript">
                  async function generate() {
@@ -178,7 +180,6 @@
                </div>
               </div>
            </div>
-		   <%- include('./parts/footer') %>	
 <script type="text/javascript"  charset="utf-8">
 	// Place this code snippet near the footer of your page before the close of the /body tag
 	// LEGAL NOTICE: The content of this website and all associated program code are protected under the Digital Millennium Copyright Act. Intentionally circumventing this code may constitute a violation of the DMCA.
