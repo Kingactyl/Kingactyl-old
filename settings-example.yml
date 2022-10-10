@@ -152,8 +152,8 @@ api:
           cpu: 400
         info:
           egg: 15
-          docker_image: quay.io/devil38/catactyl:multiarch
-          startup: ./minecraft.sh
+          docker_image: ghcr.io/pterodactyl/yolks:java_17
+          startup: java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}
           environment:
             MINECRAFT_VERSION: "latest"
             SERVER_JARFILE: "server.jar"

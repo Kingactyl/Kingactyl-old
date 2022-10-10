@@ -2,6 +2,9 @@
 Making a free or paid host and need a way for users to sign up, earn coins, manage servers? Try out Kingactyl.
 How to install: COMING SGOON
 
+#Credit
+Fork of Faliactyl (Faliactyl is a fork of Dashactyl v1)
+
 # All features:
 - Resource Management (gift, use it to create servers, etc)
 - Coins (AFK Page earning, Join for Rewards)
