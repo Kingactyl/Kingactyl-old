@@ -31,8 +31,9 @@ storelimits:
   allocations: 4
   backups: 4
 
+# AFK Party dosent work currently.
 AFK Party: 
-  enabled: true
+  enabled: false
   webhook: ""
   users: 1
   multiplier: 2	
