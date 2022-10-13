@@ -120,9 +120,9 @@
 				<% if (req.query.err !=="none" ) { %>
 					<div class="alert alert-danger" role="alert">
 						<% if (req.query.err == "MISSINGID") { %>
-							You have not provided the Discord user ID.
+							You have not provided a Email.
 						<% } else if (req.query.err == "INVALIDID" || req.query.err == "MISSINGID") { %>
-							You have provided a Discord user ID that does not exist, or has not signed up on the dashboard.
+							You have provided a Email that has not signed up on the dashboard.
 		<% } else if (req.query.err == "CREATECOUPONINVALIDCHARACTERS") { %>
 		One of the characters you entered in coupon creation was invalid, please try again.
 		<% } else if (req.query.err == "REVOKECOUPONCANNOTFINDCODE") { %>
@@ -134,7 +134,7 @@
 						<% } else if (req.query.err == "MISSINGVARIABLES") { %>
 							You have not provided either ram, disk, cpu, and/or servers.
 						<% } else if (req.query.err == "REMOVEACCOUNTMISSINGID") { %>
-							You have not specified an id to remove from the panel
+							You have not specified an Email to remove from the panel
 						<% } else if (req.query.err == "MISSINGCOINS") { %>
 							You have not provided the coin amount.
 						<% } else if (req.query.err == "RAMSIZE" || req.query.err == "DISKSIZE" || req.query.err == "CPUSIZE" || req.query.err == "SERVERSIZE") { %>
@@ -334,7 +334,7 @@
 																		<input class="form-control" name="cpu" type="number"><br><br>
 																		<label for="servers">Servers:</label>
 																		<input class="form-control" name="servers" type="number"><br><br>
-																		<button type="submit" class="btn btn-primary">Change</button>
+																		<button type="submit" class="btn btn-primary">Add</button>
 																	</form>
 																</div>
 															  </div>
@@ -412,7 +412,7 @@
 																	<h4 class="card-title">Remove Account</h4>
 																	<p>This only removes the account from the database, and does not delete the account.<br>This feature has not been tested with the renewal feature.</p>
 																	<form action="/remove_account">
-																		<label for="id">Discord ID:</label>
+																		<label for="id">Email:</label>
 																		<input class="form-control" name="id"><br><br>
 																		<button type="submit" class="btn btn-primary">Remove</button>
 																	</form>
@@ -423,7 +423,7 @@
 																<div class="card-body">
 																	<h4 class="card-title">User Information</h4>
 								
-																	<label for="id">Discord ID:</label>
+																	<label for="id">Email:</label>
 																	<input class="form-control" name="id" id="userinfoid"><br><br>
 																	<button type="submit" class="btn btn-primary" onclick="getUserInfo()">Get</button>
 								
