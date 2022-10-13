@@ -299,7 +299,7 @@
 															<div class="card">
 															  <div class="card-body">
 																<h4 class="card-title">Change someone's package.</h4>
-																<p>Discord User ID: <input class="form-control" id="id" placeholder="0000000000000000"></p>
+																<p>Email: <input class="form-control" id="id" placeholder="example@example.com"></p>
 																<p>Package: <select class="form-control" id="package">
 																	<option value="">Default Plan (Currently: <%= settings.api.client.packages.default %>)</option>
 																	<% for (let [name, value] of Object.entries(settings.api.client.packages.list)) { %>
@@ -322,10 +322,10 @@
 															</div>
 															<div class="card col-md-12 grid-margin stretch-card">
 																<div class="card-body">
-																	<h4 class="card-title">Change someone's extra resources.</h4>
+																	<h4 class="card-title">Add extra resources.</h4>
 																	<form action="/setresources">
-																		<label for="id">Discord User ID:</label>
-																		<input class="form-control" name="id" placeholder="0000000000000000"><br><br>
+																		<label for="id">Email:</label>
+																		<input class="form-control" name="id" placeholder="example@example.com"><br><br>
 																		<label for="ram">RAM:</label>
 																		<input class="form-control" name="ram" type="number"><br><br>
 																		<label for="disk">Disk:</label>
@@ -342,8 +342,8 @@
 																<div class="card-body">
 																	<h4 class="card-title">Set coins.</h4>
 																	<form action="/setcoins">
-																		<label for="id">Discord User ID:</label>
-																		<input class="form-control" name="id" placeholder="0000000000000000"><br><br>
+																		<label for="id">Email:</label>
+																		<input class="form-control" name="id" placeholder="example@example.com"><br><br>
 																		<label for="coins">Coins:</label>
 																		<input class="form-control" name="coins" type="number"><br><br>
 																		<button type="submit" class="btn btn-primary">Set</button>
@@ -354,8 +354,8 @@
 																<div class="card-body">
 																	<h4 class="card-title">Add coins.</h4>
 																	<form action="/addcoins">
-																		<label for="id">Discord User ID:</label>
-																		<input class="form-control" name="id" placeholder="0000000000000000"><br><br>
+																		<label for="id">Email:</label>
+																		<input class="form-control" name="id" placeholder="example@example.com"><br><br>
 																		<label for="coins">Coins:</label>
 																		<input class="form-control" name="coins" type="number"><br><br>
 																		<button type="submit" class="btn btn-primary">Add</button>
@@ -368,8 +368,8 @@
 																<div class="card-body">
 																	<h4 class="card-title">Get IP.</h4>
 																	<form action="/getip">
-																		<label for="id">Discord User ID:</label>
-																		<input class="form-control" name="id" placeholder="0000000000000000"><br><br>
+																		<label for="id">Email:</label>
+																		<input class="form-control" name="id" placeholder="example@example.com"><br><br>
 																		<button type="submit" class="btn btn-primary">Get</button>
 																	</form>
 																</div>
