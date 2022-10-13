@@ -1,7 +1,7 @@
 name: Kingactyl
 icon: https://cdn.discordapp.com/attachments/998170574843035720/1003467646769057882/unknown.png
 defaulttheme: default
-version: 1.0.0-pre1
+version: 1.0.0-pre2
 website:
   port: 80
   secret: Example Secret
@@ -140,7 +140,8 @@ api:
       '1':
         name: Example Location
         package: null
-
+   
+    eggs:
       paper:
         display: Minecraft Java (Paper)
         minimum:
