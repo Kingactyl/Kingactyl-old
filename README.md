@@ -3,7 +3,7 @@ Making a free or paid host and need a way for users to sign up, earn coins, mana
 How to install: [github.com/Kingactyl/Install](https://github.com/Kingactyl/Install)
 
 # Credit
-Fork of Faliactyl (Faliactyl is a fork of Dashactyl v1)
+Fork of Faliactyl (Faliactyl is a fork of Dashactyl v0.4 )
 
 # All features:
 - Resource Management (gift, use it to create servers, etc)
