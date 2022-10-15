@@ -137,7 +137,7 @@ app.all("*", async (req, res) => {
         if (err) {
           console.log(chalk.red(`[WEBSITE] An error has occured on path ${req._parsedUrl.pathname}:`));
           console.log(err);
-          return res.send("An error has occured while attempting to load this page. Please contact an administrator to fix this.");
+          return res.send("An error has occured while attempting to load this page. Please contact an Kingactyl administrator to fix this.");
         };
         res.status(404);
         return res.send(str);
@@ -154,7 +154,7 @@ app.all("*", async (req, res) => {
         if (err) {
           console.log(chalk.red(`[WEBSITE] An error has occured on path ${req._parsedUrl.pathname}:`));
           console.log(err);
-          return res.send("An error has occured while attempting to load this page. Please contact an administrator to fix this.");
+          return res.send("An error has occured while attempting to load this page. Please contact an  Kingactyl administrator to fix this.");
         };
         return res.send(str);
       };
@@ -165,7 +165,7 @@ app.all("*", async (req, res) => {
         if (err) {
           console.log(chalk.red(`[WEBSITE] An error has occured on path ${req._parsedUrl.pathname}:`));
           console.log(err);
-          return res.send("An error has occured while attempting to load this page. Please contact an administrator to fix this.");
+          return res.send("An error has occured while attempting to load this page. Please contact an  Kingactyl administrator to fix this.");
         };
         return res.send(str);
       };
@@ -180,7 +180,7 @@ app.all("*", async (req, res) => {
         if (err) {
           console.log(`[WEBSITE] An error has occured on path ${req._parsedUrl.pathname}:`);
           console.log(err);
-          return res.send("An error has occured while attempting to load this page. Please contact an administrator to fix this.");
+          return res.send("An error has occured while attempting to load this page. Please contact an Kingactyl administrator to fix this.");
         };
         res.status(404);
         res.send(str);
