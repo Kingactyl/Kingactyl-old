@@ -81,6 +81,7 @@ console.log(srt)
 
 app.listen(settings.website.port, (err) => {
   console.log(chalk.green(figlet.textSync("Kingactyl")));
+  console.log(chalk.green(figlet.textSync("Faliactyl")));
   console.log(chalk.blue(`[Kingactyl] Kingactyl has successfully started on port ${settings.website.port}`));
   if (err) console.log(chalk.red(err));
 });
