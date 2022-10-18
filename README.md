@@ -3,9 +3,9 @@ Making a free or paid host and need a way for users to sign up, earn coins, mana
 How to install: [github.com/Kingactyl/Install](https://github.com/Kingactyl/Install)
 
 # This is a fork of Faliactyl
-Github: https://github.com/Zircon-Dev/Faliactyl
-Support server (& our support server): https://discord.gg/TYCRTGMmHK
-All credits go to Faliactyl and their hardworking developers!
+- Github: https://github.com/Zircon-Dev/Faliactyl
+- Support server (& our support server): https://discord.gg/TYCRTGMmHK
+- All credits go to Faliactyl and their hardworking developers!
 
 # All features:
 - Resource Management (gift, use it to create servers, etc)
