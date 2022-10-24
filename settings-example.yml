@@ -1,10 +1,13 @@
 name: Kingactyl
 icon: https://cdn.discordapp.com/attachments/998170574843035720/1003467646769057882/unknown.png
 defaulttheme: default
-version: 1.0.0
+version: 1.0.1
 website:
   port: 80
   secret: Example Secret
+
+customize:
+   authimage: https://cdn.discordapp.com/attachments/1018938870978580611/1034022767252738098/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif
 
 discordserver:
   enabled: true
