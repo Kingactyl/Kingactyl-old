@@ -1,4 +1,3 @@
-=======
 # Kingactyl • The cleanest Pterodactyl Client Panel
 Making a free or paid host and need a way for users to sign up, earn coins, manage servers? Try out Kingactyl.
 How to install: [github.com/Kingactyl/Install](https://github.com/Kingactyl/Install)
