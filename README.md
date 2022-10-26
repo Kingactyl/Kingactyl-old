@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-hacked and nuked by ! YeahxD#1464
 =======
 # Kingactyl • The cleanest Pterodactyl Client Panel
 Making a free or paid host and need a way for users to sign up, earn coins, manage servers? Try out Kingactyl.
@@ -33,4 +31,3 @@ How to install: [github.com/Kingactyl/Install](https://github.com/Kingactyl/Inst
 - Email Verifier
 - No login system (if user doesn't login for a number of days, it deletes servers and account.)
 - Anti VPN System
->>>>>>> parent of 3bc62a1 (Update README.md)
