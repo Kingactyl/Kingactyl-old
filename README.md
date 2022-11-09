@@ -6,4 +6,4 @@ Also this is only since a staff in Reyo and in Foxy, and Foxy is owned by the ow
 Love you,
 KingTino
 
-BTW i will be exposing Reyo soon.
+Might be continued soon. 👀👀👀
